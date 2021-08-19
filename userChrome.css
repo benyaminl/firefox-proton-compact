@@ -1,0 +1,26 @@
+/* Tab Button show */
+.tab-close-button:not([pinned]) {
+    display: -moz-box !important;
+}
+
+/* make firefox great again */
+#main-window[uidensity="compact"]  {
+  --tab-min-height: 26px !important;
+}
+
+/* compact menu */
+/*** Tighten up drop-down/context/popup menu spacing ***/
+
+menupopup > menuitem, menupopup > menu {
+  padding-block: 0.3em !important;
+}
+:root {
+  --arrowpanel-menuitem-padding: 0.3em 0.6em !important;
+}
+/* end of compact menu */
+
+#main-window[uidensity="compact"] .titlebar-buttonbox-container {
+  max-height: 32px;
+}
+
+
