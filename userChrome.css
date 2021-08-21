@@ -12,10 +12,10 @@
 /*** Tighten up drop-down/context/popup menu spacing ***/
 
 menupopup > menuitem, menupopup > menu {
-  padding-block: 0.3em !important;
+  padding-block: 0.25em !important;
 }
 :root {
-  --arrowpanel-menuitem-padding: 0.3em 0.6em !important;
+  --arrowpanel-menuitem-padding: 0.25em 0.5em !important;
 }
 /* end of compact menu */
 
@@ -23,4 +23,19 @@ menupopup > menuitem, menupopup > menu {
   max-height: 32px;
 }
 
+#main-window[uidensity="compact"] .tab-close-button {
+	padding: 4px !important;
+	width: 20px !important;
+	height: 20px !important;
+}
 
+/* compact back and forward button */
+#context-navigation:not([hidden]){
+  height: 2em !important;
+}
+
+#context-navigation > .menuitem-iconic > .menu-iconic-left > .menu-iconic-icon {
+	padding: 0.2em !important;
+}
+
+/* compact back and forward button */
