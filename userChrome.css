@@ -12,10 +12,10 @@
 /*** Tighten up drop-down/context/popup menu spacing ***/
 
 menupopup > menuitem, menupopup > menu {
-  padding-block: 0.25em !important;
+  padding-block: 0.2em !important;
 }
 :root {
-  --arrowpanel-menuitem-padding: 0.25em 0.5em !important;
+  --arrowpanel-menuitem-padding: 0.2em 0.4em !important;
 }
 /* end of compact menu */
 
